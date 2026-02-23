@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Branded Easy™ — Our Work</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%23ff6b6b'/%3E%3Cstop offset='100%25' stop-color='%234ecdc4'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100' height='100' rx='20' fill='url(%23g)'/%3E%3Ctext x='50' y='68' font-family='Arial Black' font-size='45' fill='%23fff' text-anchor='middle'%3EBE%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=DM+Sans:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&family=Cinzel:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--void:#faf9f7;--signal:#ff6b6b;--action:#4ecdc4;--bone:#1a2744;--mid:#4a5568;--dim:#64748b;--border:#d4d0ca;--steel:#eae8e4}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'DM Sans',sans-serif;background:var(--void);color:var(--bone);line-height:1.6;overflow-x:hidden}
+::selection{background:#ff6b6b;color:#fff}
+a{color:inherit;text-decoration:none;transition:all .2s}
+.container{max-width:1140px;margin:0 auto;padding:0 24px}
+.tag{font-family:'Space Mono',monospace;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--signal);font-weight:700}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:14px 28px;border-radius:8px;font-size:14px;font-weight:600;cursor:pointer;transition:all .25s;border:none}
+.btn-primary{background:#ff6b6b;color:#fff;box-shadow:0 4px 20px rgba(255,107,107,.2)}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(255,107,107,.35)}
+.btn-lg{padding:18px 36px;font-size:16px}
+
+.nav{position:fixed;top:0;left:0;width:100%;z-index:1000;padding:16px 0;transition:all .3s}
+.nav.scrolled{background:rgba(250,249,247,.98);backdrop-filter:blur(12px);border-bottom:1px solid var(--border)}
+.nav-inner{display:flex;justify-content:space-between;align-items:center}
+.nav-logo{font-family:'Archivo Black',sans-serif;font-size:28px;letter-spacing:-0.5px;color:var(--bone);display:inline-block}
+.nav-logo .coral{color:var(--signal)}
+.nav-logo .tm{font-family:'DM Sans',sans-serif;font-size:14px;font-weight:600;vertical-align:baseline;position:relative;top:-10px;line-height:0;opacity:0.5}
+.nav-links{display:flex;align-items:center;gap:36px}
+.nav-links a{font-size:15px;font-weight:500;color:var(--mid)}
+.nav-links a:hover{color:var(--bone)}
+.nav-cta{background:#ff6b6b!important;color:#fff!important;padding:12px 24px!important;border-radius:8px!important}
+.mobile-toggle{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:8px}
+.mobile-toggle span{width:24px;height:2px;background:var(--bone);border-radius:2px}
+.mobile-menu{display:none;position:fixed;top:0;left:0;width:100%;height:100vh;background:var(--void);z-index:999;padding:80px 24px 40px;flex-direction:column;gap:24px}
+.mobile-menu.open{display:flex}
+.mobile-menu a{font-size:24px;font-family:'Archivo Black',sans-serif;color:var(--bone)}
+.mobile-close{position:absolute;top:20px;right:24px;font-size:32px;cursor:pointer}
+
+.hero{padding:160px 0 80px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;top:-200px;left:50%;transform:translateX(-50%);width:800px;height:600px;background:radial-gradient(circle,rgba(255,107,107,.05) 0%,transparent 60%);pointer-events:none}
+.hero .tag{margin-bottom:16px}
+.hero h1{font-family:'Archivo Black',sans-serif;font-size:clamp(36px,6vw,64px);letter-spacing:-2px;line-height:1.1;margin-bottom:20px}
+.hero h1 .line2{color:var(--mid)}
+.hero p{font-size:18px;color:var(--mid);max-width:560px;margin:0 auto;line-height:1.7}
+.hero-stats{display:flex;justify-content:center;gap:48px;margin-top:48px}
+.hero-stat{text-align:center}
+.hero-stat .num{font-family:'Archivo Black',sans-serif;font-size:36px;color:var(--signal)}
+.hero-stat .label{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:var(--dim);font-weight:700}
+
+.case-section{padding:80px 0}
+.case-section:nth-child(odd){background:var(--void)}
+.case-section:nth-child(even){background:#fff}
+.case-header{margin-bottom:48px}
+.case-num{font-family:'Space Mono',monospace;font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--action);font-weight:700;margin-bottom:8px}
+.case-header h2{font-family:'Archivo Black',sans-serif;font-size:clamp(28px,4vw,44px);letter-spacing:-1px;margin-bottom:8px}
+.case-header .industry{font-size:15px;color:var(--dim)}
+.case-card{background:#fff;border:1px solid var(--border);border-radius:24px;overflow:hidden;box-shadow:0 20px 60px rgba(26,39,68,.06)}
+.case-section:nth-child(even) .case-card{background:var(--void)}
+.case-grid{display:grid;grid-template-columns:1fr 1fr;min-height:520px}
+.case-visual{display:flex;align-items:center;justify-content:center;padding:60px 40px}
+.case-visual.blackstone{background:linear-gradient(180deg,#0c0a09 0%,#151311 50%,#0c0a09 100%)}
+.case-visual.zerotrace{background:linear-gradient(135deg,#0a1628 0%,#0f2440 50%,#0a1628 100%)}
+.case-content{padding:56px 48px;display:flex;flex-direction:column;justify-content:center}
+.case-badge{display:inline-flex;align-items:center;gap:6px;background:rgba(255,107,107,.08);border:1px solid rgba(255,107,107,.15);padding:6px 14px;border-radius:100px;font-family:'Space Mono',monospace;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:var(--signal);margin-bottom:20px;font-weight:700;width:fit-content}
+.case-content h3{font-family:'Archivo Black',sans-serif;font-size:28px;margin-bottom:8px;letter-spacing:-0.5px}
+.case-tagline{font-size:14px;color:var(--dim);margin-bottom:24px;font-style:italic}
+.case-content>p{font-size:15px;color:var(--mid);line-height:1.8;margin-bottom:28px}
+.case-details{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:28px}
+.case-detail{background:rgba(26,39,68,.03);border:1px solid var(--border);border-radius:10px;padding:16px}
+.case-section:nth-child(even) .case-detail{background:#fff}
+.case-detail .label{font-family:'Space Mono',monospace;font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:var(--dim);margin-bottom:4px}
+.case-detail .value{font-size:14px;font-weight:600;color:var(--bone)}
+.case-palette{display:flex;gap:8px;margin-bottom:28px}
+.case-palette .swatch{width:40px;height:40px;border-radius:10px;border:1px solid var(--border);transition:transform .2s}
+.case-palette .swatch:hover{transform:scale(1.15)}
+.case-stats{display:flex;gap:32px;padding-top:24px;border-top:1px solid var(--border)}
+.case-stat .num{font-family:'Archivo Black',sans-serif;font-size:24px;color:var(--signal);margin-bottom:2px}
+.case-stat .label{font-family:'Space Mono',monospace;font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--dim)}
+
+.coming-section{padding:80px 0;background:#fff}
+.coming-header{text-align:center;margin-bottom:48px}
+.coming-header h2{font-family:'Archivo Black',sans-serif;font-size:32px;letter-spacing:-1px;margin-bottom:12px}
+.coming-header p{color:var(--mid);font-size:16px}
+.coming-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.coming-card{background:var(--void);border:1px solid var(--border);border-radius:16px;padding:40px 32px;text-align:center;position:relative;overflow:hidden}
+.coming-card::before{content:'COMING SOON';position:absolute;top:16px;right:-28px;background:rgba(255,107,107,.1);color:var(--signal);font-family:'Space Mono',monospace;font-size:9px;font-weight:700;padding:4px 40px;transform:rotate(45deg);letter-spacing:1px}
+.coming-placeholder{width:72px;height:72px;background:var(--steel);border-radius:16px;margin:0 auto 20px;display:flex;align-items:center;justify-content:center}
+.coming-placeholder span{font-family:'Archivo Black',sans-serif;font-size:22px;color:var(--dim);opacity:.4}
+.coming-card h4{font-family:'Archivo Black',sans-serif;font-size:18px;margin-bottom:4px}
+.coming-card p{font-size:14px;color:var(--dim)}
+
+.final-cta{text-align:center;padding:100px 0;background:var(--void)}
+.final-cta .tag{margin-bottom:16px}
+.final-cta h2{font-family:'Archivo Black',sans-serif;font-size:clamp(28px,4vw,48px);letter-spacing:-1px;margin-bottom:16px}
+.final-cta>p{font-size:17px;color:var(--mid);margin-bottom:32px;max-width:480px;margin-left:auto;margin-right:auto}
+.final-trust{display:flex;justify-content:center;gap:48px;margin-top:40px}
+.final-trust-item{text-align:center}
+.final-trust-item .icon{font-size:24px;margin-bottom:6px}
+.final-trust-item p{font-size:12px;color:var(--dim)}
+
+.footer{background:#fff;border-top:1px solid var(--border);padding:40px 0}
+.footer-inner{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px}
+.footer-logo{font-family:'Archivo Black',sans-serif;font-size:20px;color:var(--bone)}
+.footer-logo .coral{color:var(--signal)}
+.footer-logo .tm{font-family:'DM Sans',sans-serif;font-size:11px;font-weight:600;vertical-align:baseline;position:relative;top:-7px;line-height:0;opacity:0.5}
+.footer-copy{font-family:'Space Mono',monospace;font-size:11px;color:var(--dim)}
+.footer-links{display:flex;gap:24px}
+.footer-links a{font-size:14px;color:var(--mid)}
+.footer-links a:hover{color:var(--signal)}
+
+@media(max-width:1024px){.case-grid{grid-template-columns:1fr}.case-visual{min-height:350px}.coming-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:768px){.nav-links{display:none}.mobile-toggle{display:flex}.case-content{padding:36px 24px}.case-details{grid-template-columns:1fr}.case-stats{flex-direction:column;gap:16px}.coming-grid{grid-template-columns:1fr}.hero-stats{flex-direction:column;gap:24px}.footer-inner{flex-direction:column;text-align:center}}
+@media(max-width:480px){.hero h1{font-size:28px}.nav-logo{font-size:22px}.nav-logo .tm{font-size:11px;top:-8px}.btn{width:100%;justify-content:center}.final-trust{flex-direction:column;gap:20px}}
+</style>
+</head>
+<body>
+
+<nav class="nav" id="nav"><div class="container"><div class="nav-inner">
+  <a href="index.html" class="nav-logo">BRANDED<span class="coral">EASY</span><span class="tm">&trade;</span></a>
+  <div class="nav-links">
+    <a href="index.html#services">Services</a>
+    <a href="portfolio.html">Work</a>
+    <a href="index.html#pricing">Pricing</a>
+    <a href="index.html#process">Process</a>
+    <a href="index.html#about">About</a>
+    <a href="start.html" class="nav-cta">Start Your Brand &rarr;</a>
+  </div>
+  <div class="mobile-toggle" onclick="toggleMobile()"><span></span><span></span><span></span></div>
+</div></div></nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <span class="mobile-close" onclick="toggleMobile()">&times;</span>
+  <a href="index.html#services" onclick="toggleMobile()">Services</a>
+  <a href="portfolio.html" onclick="toggleMobile()">Work</a>
+  <a href="index.html#pricing" onclick="toggleMobile()">Pricing</a>
+  <a href="index.html#process" onclick="toggleMobile()">Process</a>
+  <a href="index.html#about" onclick="toggleMobile()">About</a>
+  <a href="start.html" class="btn btn-primary" style="margin-top:20px">Start Your Brand &rarr;</a>
+</div>
+
+<section class="hero"><div class="container">
+  <div class="tag">Our Work</div>
+  <h1>Brands we've built.<br><span class="line2">Businesses we've transformed.</span></h1>
+  <p>Every project starts with a conversation and ends with a brand that works as hard as the business behind it.</p>
+  <div class="hero-stats">
+    <div class="hero-stat"><div class="num">72hr</div><div class="label">Free Preview</div></div>
+    <div class="hero-stat"><div class="num">$179</div><div class="label">Starting Price</div></div>
+    <div class="hero-stat"><div class="num">100%</div><div class="label">U.S. Based</div></div>
+  </div>
+</div></section>
+
+<!-- CASE STUDY 1: BLACKSTONE MASONRY -->
+<section class="case-section"><div class="container">
+  <div class="case-header">
+    <div class="case-num">Case Study 01</div>
+    <h2>Blackstone Masonry</h2>
+    <div class="industry">Masonry &amp; Stone Work</div>
+  </div>
+  <div class="case-card"><div class="case-grid">
+    <div class="case-visual blackstone">
+      <svg viewBox="0 0 340 130" style="width:100%;max-width:300px;"><defs><linearGradient id="stone" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#3d3a36"/><stop offset="50%" stop-color="#1f1d1a"/><stop offset="100%" stop-color="#1a1816"/></linearGradient><linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#fcd34d"/><stop offset="30%" stop-color="#f59e0b"/><stop offset="100%" stop-color="#92400e"/></linearGradient><linearGradient id="light" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#57534e"/><stop offset="100%" stop-color="#3d3a36"/></linearGradient></defs><g transform="translate(15,10)"><ellipse cx="48" cy="108" rx="35" ry="6" fill="#0c0a09" opacity="0.4"/><polygon points="8,10 78,0 78,95 8,105" fill="url(#stone)"/><polygon points="8,10 78,0 88,5 18,15" fill="url(#light)"/><polygon points="78,0 88,5 88,100 78,95" fill="#1a1816"/><g transform="translate(18,20)"><path d="M0 0 L0 65 L28 65 Q48 65 48 48 Q48 36 35 34 Q45 31 45 20 Q45 4 28 0 Z" fill="url(#gold)"/><path d="M11 10 L11 28 L24 28 Q32 28 32 19 Q32 10 24 10 Z" fill="#1f1d1a"/><path d="M11 38 L11 55 L26 55 Q37 55 37 46.5 Q37 38 26 38 Z" fill="#1f1d1a"/></g></g><text x="115" y="48" font-family="Cinzel,serif" font-size="28" font-weight="600" fill="#faf5f0" letter-spacing="5">BLACK</text><text x="115" y="82" font-family="Cinzel,serif" font-size="28" font-weight="600" fill="url(#gold)" letter-spacing="5">STONE</text><line x1="115" y1="95" x2="290" y2="95" stroke="#3d3a36"/><text x="115" y="115" font-family="sans-serif" font-size="9" fill="#57534e" letter-spacing="3">MONUMENTS TO LAST FOREVER</text></svg>
+    </div>
+    <div class="case-content">
+      <div class="case-badge">Featured Project</div>
+      <h3>Blackstone Masonry</h3>
+      <p class="case-tagline">"What we build will outlive us all."</p>
+      <p>A master-class in brand psychology. The monolith "B" mark triggers subconscious associations with permanence, weight, and legacy &mdash; exactly what a masonry company needs to communicate before a single word is read.</p>
+      <div class="case-details">
+        <div class="case-detail"><div class="label">Typography</div><div class="value">Cinzel + DM Sans</div></div>
+        <div class="case-detail"><div class="label">Package</div><div class="value">Brand Kit &mdash; $449</div></div>
+        <div class="case-detail"><div class="label">Deliverables</div><div class="value">Logo, Colors, Type, Style Guide</div></div>
+        <div class="case-detail"><div class="label">Timeline</div><div class="value">5 Days</div></div>
+      </div>
+      <div class="case-palette"><div class="swatch" style="background:#0c0a09"></div><div class="swatch" style="background:#2c2a27"></div><div class="swatch" style="background:#57534e"></div><div class="swatch" style="background:#f59e0b"></div><div class="swatch" style="background:#faf5f0"></div></div>
+      <div class="case-stats"><div class="case-stat"><div class="num">1:1.618</div><div class="label">Golden Ratio</div></div><div class="case-stat"><div class="num">4</div><div class="label">Concepts</div></div><div class="case-stat"><div class="num">&infin;</div><div class="label">Years to Last</div></div></div>
+    </div>
+  </div></div>
+</div></section>
+
+<!-- CASE STUDY 2: ZERO TRACE PRO CLEANING -->
+<section class="case-section"><div class="container">
+  <div class="case-header">
+    <div class="case-num">Case Study 02</div>
+    <h2>Zero Trace Pro Cleaning</h2>
+    <div class="industry">Commercial Cleaning Services</div>
+  </div>
+  <div class="case-card"><div class="case-grid">
+    <div class="case-visual zerotrace">
+      <div style="text-align:center">
+        <div style="font-family:'Archivo Black',sans-serif;font-size:clamp(36px,5vw,56px);letter-spacing:-2px;color:#fff;line-height:1">ZERO<span style="color:#4ecdc4">TRACE</span></div>
+        <div style="font-family:'Space Mono',monospace;font-size:10px;letter-spacing:6px;color:rgba(255,255,255,0.4);margin-top:8px;text-transform:uppercase">Pro Cleaning</div>
+        <div style="width:60px;height:2px;background:linear-gradient(90deg,#4ecdc4,#ff6b6b);margin:16px auto 0;border-radius:2px"></div>
+      </div>
+    </div>
+    <div class="case-content">
+      <div class="case-badge" style="background:rgba(78,205,196,.08);border-color:rgba(78,205,196,.15);color:var(--action)">Client Project</div>
+      <h3>Zero Trace Pro Cleaning</h3>
+      <p class="case-tagline">"Leave nothing behind but clean."</p>
+      <p>Zena needed a brand that communicated trust, thoroughness, and professionalism to commercial property managers. We built an identity that positions Zero Trace as the premium choice &mdash; clean, bold, and impossible to ignore.</p>
+      <div class="case-details">
+        <div class="case-detail"><div class="label">Typography</div><div class="value">Archivo Black + DM Sans</div></div>
+        <div class="case-detail"><div class="label">Package</div><div class="value">Full Identity &mdash; $649</div></div>
+        <div class="case-detail"><div class="label">Deliverables</div><div class="value">Logo, Brand Guide, Cards, Letterhead, Website</div></div>
+        <div class="case-detail"><div class="label">Timeline</div><div class="value">7 Days</div></div>
+      </div>
+      <div class="case-palette"><div class="swatch" style="background:#0a1628"></div><div class="swatch" style="background:#1a2744"></div><div class="swatch" style="background:#4ecdc4"></div><div class="swatch" style="background:#ff6b6b"></div><div class="swatch" style="background:#ffffff"></div></div>
+      <div class="case-stats"><div class="case-stat"><div class="num" style="color:var(--action)">3</div><div class="label">Concepts</div></div><div class="case-stat"><div class="num" style="color:var(--action)">7</div><div class="label">Day Turnaround</div></div><div class="case-stat"><div class="num" style="color:var(--action)">100%</div><div class="label">Satisfaction</div></div></div>
+    </div>
+  </div></div>
+</div></section>
+
+<!-- COMING SOON -->
+<section class="coming-section"><div class="container">
+  <div class="coming-header">
+    <div class="tag" style="margin-bottom:12px">Up Next</div>
+    <h2>Your brand could be here.</h2>
+    <p>We're always working on new projects. Want to be featured?</p>
+  </div>
+  <div class="coming-grid">
+    <div class="coming-card"><div class="coming-placeholder"><span>?</span></div><h4>Your Brand Here</h4><p>Your Industry</p></div>
+    <div class="coming-card"><div class="coming-placeholder"><span>?</span></div><h4>Your Brand Here</h4><p>Your Industry</p></div>
+    <div class="coming-card"><div class="coming-placeholder"><span>?</span></div><h4>Your Brand Here</h4><p>Your Industry</p></div>
+  </div>
+</div></section>
+
+<section class="final-cta"><div class="container">
+  <div class="tag">Ready?</div>
+  <h2>Let's build something great.</h2>
+  <p>See your first concepts in 72 hours &mdash; free.</p>
+  <a href="start.html" class="btn btn-primary btn-lg">Start Your Brand &rarr;</a>
+  <div class="final-trust">
+    <div class="final-trust-item"><div class="icon">&#127482;&#127480;</div><p>U.S.-Based</p></div>
+    <div class="final-trust-item"><div class="icon">&#9889;</div><p>72hr Preview</p></div>
+    <div class="final-trust-item"><div class="icon">&#128175;</div><p>Guaranteed</p></div>
+  </div>
+</div></section>
+
+<footer class="footer"><div class="container"><div class="footer-inner">
+  <div class="footer-logo">BRANDED<span class="coral">EASY</span><span class="tm">&trade;</span></div>
+  <div class="footer-links">
+    <a href="index.html">Home</a>
+    <a href="index.html#pricing">Pricing</a>
+    <a href="start.html">Get Started</a>
+    <a href="mailto:hello@brandedeasy.com">Contact</a>
+  </div>
+  <div class="footer-copy">&copy; 2026 BRANDED EASY&trade;</div>
+</div></div></footer>
+
+<script>
+window.addEventListener('scroll',function(){document.getElementById('nav').classList.toggle('scrolled',window.scrollY>50)});
+function toggleMobile(){document.getElementById('mobileMenu').classList.toggle('open')}
+</script>
+</body>
+</html>
